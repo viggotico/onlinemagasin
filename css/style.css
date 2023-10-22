@@ -8,12 +8,12 @@
  */
 
 :root {
-  --1_special: #f7107f;
+  --special_1: #f7107f;
   --text-elements: #fff;
   --bg-color: #212121;
-  --2_blue: #15a4f4;
-  --3_green: #04ff4a;
-  --4_purple: #bc2dff;
+  --blue_2: #15a4f4;
+  --green_3: #04ff4a;
+  --purple_4: #bc2dff;
   --card-bg: #2c2c2c;
   --waves-library-black\[deleted\|variable-d656d06e\]: #131313;
   --waves-library-white\[deleted\|variable-bb55bcc6\]: white;
@@ -86,7 +86,7 @@ body {
 }
 
 a {
-  color: var(--1_special);
+  color: var(--special_1);
 }
 
 .margin-top {
@@ -137,7 +137,7 @@ a {
 .navbar_component {
   width: 100%;
   background-color: var(--bg-color);
-  background-image: linear-gradient(to right, var(--1_special) 10%, var(--2_blue) 36%, var(--3_green) 63%, var(--4_purple) 88%);
+  background-image: linear-gradient(to right, var(--special_1) 10%, var(--blue_2) 36%, var(--green_3) 63%, var(--purple_4) 88%);
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -186,7 +186,7 @@ a {
 }
 
 .text-style-link {
-  color: var(--1_special);
+  color: var(--special_1);
   text-align: left;
 }
 
@@ -197,7 +197,7 @@ a {
 }
 
 .navbar_link.yh--current {
-  color: var(--1_special);
+  color: var(--special_1);
 }
 
 .navbar2_dropdown-content-right {
@@ -227,7 +227,7 @@ a {
 /* Knapper */
 
 .button {
-  background-color: var(--1_special);
+  background-color: var(--special_1);
   color: var(--text-elements);
   text-align: center;
   padding: .75rem 1.5rem;
@@ -235,7 +235,7 @@ a {
 
 .button.is-secondary {
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(to bottom, var(--1_special), var(--1_special));
+  background-image: linear-gradient(to bottom, var(--special_1), var(--special_1));
   color: var(--text-elements);
 }
 
@@ -599,7 +599,7 @@ a {
 }
 
 .heading-style-h5.card-title {
-  color: var(--2_blue);
+  color: var(--blue_2);
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -614,7 +614,7 @@ a {
 }
 
 .home_features-list_card-large {
-  background-image: linear-gradient(to right, var(--1_special) 9%, var(--2_blue) 35%, var(--3_green) 61%, var(--4_purple) 89%);
+  background-image: linear-gradient(to right, var(--special_1) 9%, var(--blue_2) 35%, var(--green_3) 61%, var(--purple_4) 89%);
   flex-direction: column;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -815,7 +815,7 @@ a {
 }
 
 .footer2_component {
-  background-image: linear-gradient(to right, var(--1_special) 9%, var(--2_blue) 34%, var(--3_green) 62%, var(--4_purple) 89%);
+  background-image: linear-gradient(to right, var(--special_1) 9%, var(--blue_2) 34%, var(--green_3) 62%, var(--purple_4) 89%);
   padding-top: .125rem;
 }
 
@@ -963,7 +963,7 @@ a {
 .icon-embed-xsmall {
   width: 1.5rem;
   height: 1.5rem;
-  color: var(--1_special);
+  color: var(--special_1);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1216,7 +1216,7 @@ a {
 }
 
 .hero-header-wrapper {
-  background-image: linear-gradient(to right, var(--1_special) 8%, var(--2_blue) 32%, var(--3_green) 62%, var(--4_purple) 91%);
+  background-image: linear-gradient(to right, var(--special_1) 8%, var(--blue_2) 32%, var(--green_3) 62%, var(--purple_4) 91%);
   padding-bottom: .125rem;
 }
 
@@ -1247,7 +1247,7 @@ a {
 }
 
 .list-item {
-  background-image: linear-gradient(to right, var(--1_special) 10%, var(--2_blue) 37%, var(--3_green) 65%, var(--4_purple) 91%);
+  background-image: linear-gradient(to right, var(--special_1) 10%, var(--blue_2) 37%, var(--green_3) 65%, var(--purple_4) 91%);
   margin-top: 2rem;
   padding-top: .125rem;
   box-shadow: 0 0 20px 7px rgba(0, 0, 0, .2);
@@ -1321,7 +1321,7 @@ a {
 }
 
 .button-2 {
-  background-color: var(--1_special);
+  background-color: var(--special_1);
   color: var(--text-elements);
   text-align: center;
   padding: .75rem 1.5rem;
@@ -1329,7 +1329,7 @@ a {
 
 .button-2.max-width-full {
   border-style: none;
-  border-color: var(--2_blue);
+  border-color: var(--blue_2);
   background-color: var(--card-bg);
   color: var(--text-elements);
 }
@@ -1356,7 +1356,7 @@ a {
 }
 
 .pricing10_plan {
-  border: 1px solid var(--1_special);
+  border: 1px solid var(--special_1);
   padding: 2rem;
   box-shadow: 0 0 20px 7px rgba(0, 0, 0, .3);
 }
